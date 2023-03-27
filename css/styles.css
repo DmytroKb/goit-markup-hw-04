@@ -163,13 +163,15 @@ body {
 .second-list-item {
   width: calc((100% - 72px) / 4);
 }
-.second-list-link {
+.second-list-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px 100px;
+  /* padding: 24px 100px; */
   background: #f4f4fd;
   border-radius: 4px;
+  margin-bottom: 8px;
+  height: 112px;
   margin-bottom: 8px;
 }
 /* .second-list-icon {
@@ -329,13 +331,16 @@ body {
 } */
 .fifth-section-item {
   width: calc((100% - 120px) / 6);
+  height: 88px;
 }
 .fifth-section-links {
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
   height: 88px;
   color: #8e8f99;
+  height: 100%;
+  width: 100%;
 }
 .customers-icons {
   fill: currentColor;
